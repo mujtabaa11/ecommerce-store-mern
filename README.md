@@ -55,6 +55,4 @@ Authentication: JWT (Access/Refresh Tokens).
 
 ----
 
-Inspired by @burakorkmez turorial.
-
 

@@ -200,3 +200,21 @@ export const refreshAccessToken = async (req, res) => {
     }
 }
 
+export const getProfile = async (req, res) => {
+    try {
+        res.status(200).json({
+            success: true,
+            user: {
+                name: req.user.name,
+                email: req.user.email,
+                _id: req.user._id
+            }
+        });
+    } catch (error) {
+        console.log("Error in getProfile controller",error);
+        res.status(500).json({
+            success: false,
+            error: error.message
+        });
+    }
+}

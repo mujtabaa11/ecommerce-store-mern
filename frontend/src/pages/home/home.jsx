@@ -20,8 +20,8 @@ export default function Home() {
         <p className={styles.subtitle}>Discover the latest trends in eco-friendly fashion</p>
       </div>
       <div className={styles.categoriesGrid}>
-        {categories.map((categoty) => (
-          <CategoryItem key={categoty.id} categoty={categoty} />
+        {categories.map((category) => (
+          <CategoryItem key={category.id} category={category} />
         ))}
       </div>
     </div>

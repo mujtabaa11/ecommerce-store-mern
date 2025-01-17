@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./PurchaseCancelPage.module.css";
+import styles from "./purchase-cancel.module.css";
 
 export default function PurchaseCancelPage() {
   return (

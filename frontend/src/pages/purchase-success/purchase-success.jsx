@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./PurchaseSuccessPage.module.css";
+import styles from "./purchase-success.module.css";
 
 export default function PurchaseSuccessPage() {
   return (

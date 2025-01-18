@@ -1,0 +1,77 @@
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.productTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.productTable th,
+.productTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.productTable th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.productTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.favoriteRow {
+  background-color: #ffefd5;
+}
+
+.favoriteButton,
+.editButton,
+.deleteButton {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.favoriteButton {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.editButton {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.favoriteButton:hover {
+  background-color: #e0a800;
+}
+
+.editButton:hover {
+  background-color: #218838;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
